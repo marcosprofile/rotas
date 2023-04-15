@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px 32px;
+  background: #333;
+  margin-bottom: 40px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  padding: 4px 12px;
+  border-radius: 20px;
+  transition: all 0.2s linear;
+}
+
+header a:hover {
+  background: #121212;
+}
+
+.menu {
+  display: flex;
+  gap: 8px;
+  color: #fff;
+}
