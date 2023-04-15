@@ -2,8 +2,6 @@ import '../style.css'
 import { Link } from 'react-router-dom';
 
 function Home() {
-  const nome = 'Marcos Ferreira';
-  const username = 'marcos.ferreira'
 
   return (
     <div className="container">
