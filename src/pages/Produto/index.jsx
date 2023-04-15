@@ -6,9 +6,11 @@ function Produto() {
 
   return (
     <div className="container">
-      <Link className="chip" to="/">Voltar</Link>
-      <h2 className="spacingTop">Detalhe do produto {id}</h2><br />
-      <span>Meu produto</span>
+      <div className="alignDiv">
+        <Link className="chip" to="/">Voltar</Link>
+        <h2 className="spacingTop">Detalhe do produto {id}</h2>
+        <span>Meu produto</span>
+      </div>
     </div>
   )
 }
